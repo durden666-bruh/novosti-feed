@@ -1,0 +1,648 @@
+{
+ "schema": 1,
+ "id": "2026-11-12",
+ "type": "morning",
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T07:49:45+05:00",
+ "title": "Утренний выпуск",
+ "greeting": "Доброе утро! Сегодня короткий выпуск: переговоры в Абу-Даби закончились обменом пленными, а посланники Трампа уже летят к Путину. Из-за технических ограничений при сборке новостей меньше обычного и они короче.",
+ "mood": {
+  "score": 0.1,
+  "label": "В ожидании",
+  "note": "Дипломатия без прорыва, зато много технологических новостей."
+ },
+ "summary": [
+  "Абу-Даби: договорились о большом обмене пленными, по территориям — без прорыва",
+  "Уиткофф и Кушнер сегодня встречаются с Путиным в Москве",
+  "В Петербурге патент для мигрантов с 2027 года подорожает почти на 40%",
+  "Google выпустила AlphaGenome 2 и дешёвый Gemini Decisions API",
+  "SpaceX 13 ноября попробует поймать обе ступени Starship"
+ ],
+ "rates": {
+  "asOf": "2026-11-12",
+  "source": "ЦБ РФ (курс НБТ получить не удалось)",
+  "items": [
+   {
+    "pair": "USD/RUB",
+    "value": 82.66,
+    "change": 0.11
+   }
+  ]
+ },
+ "items": [
+  {
+   "id": "n01",
+   "topic": "conflicts",
+   "title": "Переговоры в Абу-Даби закончились: договорились о большом обмене пленными, но не о территориях",
+   "lead": "Второй день трёхсторонних переговоров России, Украины и США завершился 11 ноября. Главный итог — соглашение о крупном обмене пленными.",
+   "body": "Напомним: 10 ноября в Абу-Даби начался двухдневный раунд переговоров при посредничестве США, а первый день закончился без соглашения — спор шёл о территории.\n\nВо второй день, по словам секретаря СНБО Украины Рустема Умерова, стороны договорились о «масштабном» обмене пленными. Это единственный конкретный результат раунда 🤝\n\nПрорыва по главному вопросу нет. Умеров говорит, что стороны изложили свои позиции, но существенные разногласия остаются. Об этом же пишут Meduza, The Moscow Times и NPR: по территориям договорённостей нет.",
+   "why": "Обмен пленными — первый осязаемый шаг за раунд, но без решения по территориям до прекращения огня ещё далеко.",
+   "importance": 5,
+   "sentiment": -0.1,
+   "region": "Россия, Украина, США",
+   "sources": [
+    {
+     "name": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
+    },
+    {
+     "name": "Meduza",
+     "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory"
+    },
+    {
+     "name": "Interfax-Украина",
+     "url": "https://en.interfax.com.ua/news/general/1235062.html"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+    }
+   ],
+   "image": null,
+   "storyId": "ukraine-peace-talks",
+   "storyTitle": "Война в Украине и переговоры",
+   "isUpdate": true,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Абу-Даби",
+    "обмен пленными"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n02",
+   "topic": "conflicts",
+   "title": "Уиткофф и Кушнер сегодня встречаются с Путиным в Москве, затем — с Зеленским в Дублине",
+   "lead": "Сразу после Абу-Даби посланники Трампа летят в Москву: встреча с Путиным назначена на четверг, 12 ноября.",
+   "body": "Стив Уиткофф и Джаред Кушнер встречаются с Владимиром Путиным в Москве 12 ноября, сообщают CNN и Meduza. Встреча идёт на следующий день после завершения переговоров в Абу-Даби, где прорыва по территориям не случилось.\n\nПосле Москвы, по данным VIN News, посланники должны встретиться с Владимиром Зеленским в Дублине. Meduza приводит фразу «они кое-что везут» — то есть американцы, судя по всему, приедут с новыми предложениями.\n\nПодробностей о содержании предложений пока нет — следи за вечерними новостями 🕵️",
+   "why": "Именно такие прямые встречи с Путиным обычно двигают переговоры сильнее, чем технические раунды.",
+   "importance": 5,
+   "sentiment": 0.0,
+   "region": "Россия, США",
+   "sources": [
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/2026/11/11/politics/trump-envoys-russia-trip-peace-talks-intl"
+    },
+    {
+     "name": "Meduza",
+     "url": "https://meduza.io/en/news/2026/11/11/they-re-bringing-something-kushner-and-witkoff-to-meet-putin-in-moscow-day-after-abu-dhabi-peace-talks"
+    },
+    {
+     "name": "VIN News",
+     "url": "https://vinnews.com/2026/11/11/kushner-and-witkoff-to-meet-putin-in-moscow-on-thursday-then-zelensky-in-dublin/"
+    }
+   ],
+   "image": null,
+   "storyId": "ukraine-peace-talks",
+   "storyTitle": "Война в Украине и переговоры",
+   "isUpdate": true,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Уиткофф",
+    "Кушнер",
+    "Путин"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n03",
+   "topic": "migration",
+   "title": "Патент для мигрантов в Петербурге подорожает почти на 40% — до 11 тысяч рублей в месяц",
+   "lead": "Законодательное собрание Петербурга 11 ноября одобрило повышение стоимости трудового патента с 2027 года.",
+   "body": "Депутаты ЗакСа Санкт-Петербурга одобрили рост стоимости патента для трудовых мигрантов. С 2027 года он будет стоить около 11 тысяч рублей в месяц — почти на 40% дороже, чем сейчас 💸\n\nОб этом пишут сразу несколько городских изданий: «Мойка78», «Газета.СПб», «МР7» и «Форпост». Патент нужен гражданам безвизовых стран, в том числе Таджикистана, чтобы законно работать в России.\n\nНовость продолжает общую линию на ужесточение: вчера МВД предлагало дополнительный налог на членов семей мигрантов.",
+   "why": "Если ты или твои знакомые работаете в Петербурге по патенту, в 2027 году эта статья расходов заметно вырастет.",
+   "importance": 4,
+   "sentiment": -0.5,
+   "region": "Россия",
+   "sources": [
+    {
+     "name": "Мойка78",
+     "url": "https://moika78.ru/news/2026-11-11/1378232-patent-dlya-trudovyh-migrantov-v-peterburge-podorozhaet-do-11-tysyach-rublej"
+    },
+    {
+     "name": "Газета.СПб",
+     "url": "https://gazeta.spb.ru/2671296-patent-dlya-migrantov-v-peterburge-podorozhaet-pochti-na-40-proczentov-v-2027-godu"
+    },
+    {
+     "name": "Форпост",
+     "url": "https://forpost-sz.ru/a/2026-11-11/zaks-peterburga-odobril-povyshenie-stoimosti-patenta-dlya-migrantov-s-2027-goda"
+    }
+   ],
+   "image": null,
+   "storyId": "russia-migration-rules",
+   "storyTitle": "Правила для мигрантов в России",
+   "isUpdate": true,
+   "rumor": false,
+   "terms": [
+    {
+     "term": "Патент",
+     "def": "Разрешение на работу для иностранцев из безвизовых стран; его оплачивают ежемесячно авансом."
+    }
+   ],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "патент",
+    "Петербург"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n04",
+   "topic": "migration",
+   "title": "МВД подготовило меры по «разобщению» мигрантских анклавов",
+   "lead": "Министерство внутренних дел России разработало рекомендации против компактного проживания мигрантов.",
+   "body": "По данным «Верстки», МВД подготовило рекомендации по «разобщению» мигрантских анклавов — районов, где мигранты живут компактно. «Взгляд» описывает это как смену логики миграционного контроля.\n\nПодробности мер в доступных материалах пока не раскрыты, поэтому важно следить за официальными документами 📄\n\nЭто ещё один шаг в серии изменений: с 1 октября уже действует проверка доходов мигрантов по приказу МВД, а регионы повышают стоимость патентов.",
+   "why": "Правила для мигрантов в России меняются почти каждую неделю — стоит держать руку на пульсе.",
+   "importance": 3,
+   "sentiment": -0.4,
+   "region": "Россия",
+   "sources": [
+    {
+     "name": "Вёрстка",
+     "url": "https://verstka.media/mvd-podgotovilo-rekomendaczii-po-razobshheniyu-migrantskih-anklavov"
+    },
+    {
+     "name": "Взгляд",
+     "url": "https://vz.ru/society/2026/11/11/1474557.html"
+    }
+   ],
+   "image": null,
+   "storyId": "russia-migration-rules",
+   "storyTitle": "Правила для мигрантов в России",
+   "isUpdate": true,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "МВД",
+    "анклавы"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n05",
+   "topic": "ai",
+   "title": "Google DeepMind выпустила AlphaGenome 2: модель предсказывает, к чему приведут мутации в ДНК",
+   "lead": "Новая версия обучена на более чем 100 млн профилей клеток из 68 тканей и доступна для некоммерческих исследований.",
+   "body": "Google DeepMind представила AlphaGenome 2, сообщает The Verge. Модель учили на более чем 100 миллионах клеточных профилей из 68 тканей организма 🧬\n\nЗадача — предсказывать, как генетические мутации повлияют на работу клеток. Это помогает учёным понять, какие изменения в ДНК связаны с болезнями.\n\nМодель открыта только для некоммерческих исследований.",
+   "why": "ИИ в биологии — одно из самых практичных применений моделей: от него зависят будущие лекарства.",
+   "importance": 4,
+   "sentiment": 0.6,
+   "region": "Великобритания, США",
+   "sources": [
+    {
+     "name": "The Verge via Techmeme",
+     "url": "https://www.techmeme.com/261111/p32"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "DeepMind",
+    "геномика"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n06",
+   "topic": "ai",
+   "title": "Google запустила Gemini Decisions API: ответы из заданного списка с оценкой уверенности",
+   "lead": "Новый API работает на модели Gemini Decision 1 и стоит $0,10 за миллион входных токенов.",
+   "body": "Google представила Gemini Decisions API на новой модели Gemini Decision 1. В отличие от обычного чата, модель возвращает один из заранее заданных ответов и оценку уверенности 🎯\n\nЦена — $0,10 за миллион входных токенов, это очень дёшево.\n\nТакой формат удобен для классификации: разметить отзывы, выбрать категорию заявки, решить «да/нет» в автоматизации.",
+   "why": "Для своего приложения это дешёвый способ добавить ИИ-классификацию без разбора свободного текста.",
+   "importance": 4,
+   "sentiment": 0.4,
+   "region": "США",
+   "sources": [
+    {
+     "name": "Google via Techmeme",
+     "url": "https://www.techmeme.com/261111/p40"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [
+    {
+     "term": "Токен",
+     "def": "Кусочек текста (часть слова), по которому считают объём и стоимость запроса к модели."
+    }
+   ],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Gemini",
+    "API"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n07",
+   "topic": "ai",
+   "title": "United Airlines запретит личным ИИ-ассистентам покупать билеты",
+   "lead": "Авиакомпания ссылается на защиту данных и возможные нарушения правил FAA и Минтранса США.",
+   "body": "United Airlines будет блокировать персональных ИИ-ассистентов, которые пытаются бронировать билеты, пишет Wall Street Journal ✈️\n\nВ компании объясняют это рисками для приватности данных и возможными нарушениями правил FAA и Министерства транспорта США.\n\nЭто один из первых случаев, когда крупный бизнес прямо закрывается от ИИ-агентов, действующих от имени клиента.",
+   "why": "Агенты, которые «делают дела за тебя», упираются в правила реального мира — это важно, если строишь такие сервисы.",
+   "importance": 3,
+   "sentiment": -0.2,
+   "region": "США",
+   "sources": [
+    {
+     "name": "WSJ via Techmeme",
+     "url": "https://www.techmeme.com/261111/p39"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [
+    {
+     "term": "ИИ-агент",
+     "def": "Программа на основе языковой модели, которая сама выполняет действия: открывает сайты, заполняет формы, покупает."
+    }
+   ],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "агенты",
+    "авиация"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n08",
+   "topic": "startups",
+   "title": "Стартап Plurai получил $13 млн на проверку ИИ-агентов в цифровых двойниках компаний",
+   "lead": "Основатели — выходцы из Nexar; они строят синтетические копии корпоративной IT-среды для тестов агентов.",
+   "body": "Plurai привлёк $13 млн посевных инвестиций, сообщает TechCrunch. Компанию основали бывшие сотрудники Nexar 💰\n\nИдея: перед запуском ИИ-агента в настоящей компании его прогоняют в «цифровом двойнике» её IT-среды на синтетических данных и смотрят, как он себя ведёт.\n\nТак можно поймать ошибки агента до того, как он что-то сломает в реальных системах.",
+   "why": "Тестирование агентов становится отдельным рынком — полезный тренд для разработчиков.",
+   "importance": 2,
+   "sentiment": 0.4,
+   "region": "Мир",
+   "sources": [
+    {
+     "name": "TechCrunch via Techmeme",
+     "url": "https://www.techmeme.com/261111/p31"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [
+    {
+     "term": "Цифровой двойник",
+     "def": "Виртуальная копия системы, на которой безопасно проводить эксперименты."
+    }
+   ],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "стартапы",
+    "агенты"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n09",
+   "topic": "gadgets",
+   "title": "Google наконец начала продавать трекер Pixel Tag",
+   "lead": "После месяцев ожидания метку Pixel Tag можно купить, пишет Android Authority.",
+   "body": "Google открыла продажи Pixel Tag — собственного Bluetooth-трекера для поиска вещей 🔎 Android Authority отмечает, что ждать устройство пришлось несколько месяцев.\n\nЦена и страны продаж — в материале источника.",
+   "why": "Если пользуешься Android, это родной вариант трекера для ключей и рюкзака.",
+   "importance": 3,
+   "sentiment": 0.4,
+   "region": "США",
+   "sources": [
+    {
+     "name": "Android Authority",
+     "url": "https://www.androidauthority.com/google-pixel-tag-released-3733213/"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Pixel",
+    "трекер"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n10",
+   "topic": "gadgets",
+   "title": "Pixel 10 и 11 получили Create My Widget, а Pixel 10a остался без функции",
+   "lead": "Google раздаёт функцию создания собственных виджетов, но бюджетная модель её не получила.",
+   "body": "Google выпустила функцию Create My Widget для смартфонов Pixel 10 и Pixel 11, сообщает Android Authority. Она приходит в рамках Feature Drop 📱\n\nPixel 10a поддержку не получил — ещё один пример того, как ИИ-функции разделяют флагманы и доступные модели.\n\nА в целом ноябрьское обновление Android 17 на Pixel принесло больше десятка нововведений, пишет SammyFans.",
+   "why": "Как Android-разработчику полезно следить, какие функции Google делает эксклюзивом флагманов.",
+   "importance": 2,
+   "sentiment": 0.2,
+   "region": "США",
+   "sources": [
+    {
+     "name": "Android Authority",
+     "url": "https://www.androidauthority.com/google-create-my-widget-pixel-feature-drop-3733311/"
+    },
+    {
+     "name": "SammyFans",
+     "url": "https://www.sammyfans.com/2026/11/10/android-17-november-2026-update-brings-over-12-new-features/"
+    }
+   ],
+   "image": null,
+   "storyId": "android-17-rollout",
+   "storyTitle": "Обновление до Android 17",
+   "isUpdate": true,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Pixel",
+    "Android 17"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n11",
+   "topic": "telecom",
+   "title": "Ericsson и Vodafone Egypt подняли спектральную эффективность 5G на 14% с помощью ИИ",
+   "lead": "Испытание прошло в сети Vodafone Egypt.",
+   "body": "Vodafone Egypt и Ericsson провели испытание, в котором ИИ оптимизировал работу 5G-сети. По данным TechAfrica News, спектральная эффективность выросла на 14% 📶\n\nСпектральная эффективность показывает, сколько данных сеть передаёт на каждый герц частот. Чем она выше, тем больше скорости без покупки нового спектра.\n\nЭто часть общего тренда: вендоры продают операторам ИИ-оптимизацию радиосети как способ выжать больше из существующего оборудования.",
+   "why": "Для тех, кто занимается оптимизацией радиосетей, это пример того, куда движется профессия: ИИ берёт на себя тонкую настройку.",
+   "importance": 3,
+   "sentiment": 0.5,
+   "region": "Египет",
+   "sources": [
+    {
+     "name": "TechAfrica News",
+     "url": "https://techafricanews.com/2026/11/10/vodafone-egypt-ericsson-record-14-percent-gain-5g-spectrum-efficiency-ai-trial/"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [
+    {
+     "term": "Спектральная эффективность",
+     "def": "Сколько бит в секунду сеть передаёт на 1 Гц полосы частот."
+    }
+   ],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Ericsson",
+    "5G",
+    "ИИ"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n12",
+   "topic": "telecom",
+   "title": "Optus и Nokia впервые в мире запустили 5G с полосой 25 МГц в диапазоне 900 МГц",
+   "lead": "Австралийский оператор расширил низкочастотный 5G на 900 МГц.",
+   "body": "Optus и Nokia заявили о мировом первенстве: 5G downlink с полосой 25 МГц в диапазоне 900 МГц, пишут TelecomTV и Mobile World Live 📡\n\nНизкие частоты дают хорошее покрытие и проникновение в здания, но обычно там узкие полосы, а значит и скорость небольшая. Более широкая полоса на 900 МГц повышает скорость именно там, где сигнал слабый.\n\nTelecomTV относит это к направлению 5G Evolution.",
+   "why": "Для планирования сети это интересный кейс: как выжать больше из низкого диапазона.",
+   "importance": 3,
+   "sentiment": 0.5,
+   "region": "Австралия",
+   "sources": [
+    {
+     "name": "TelecomTV",
+     "url": "https://www.telecomtv.com/content/5g/optus-and-nokia-achieve-world-first-25mhz-5g-downlink-breakthrough-in-900mhz-spectrum-56659/"
+    },
+    {
+     "name": "Mobile World Live",
+     "url": "https://www.mobileworldlive.com/network-tech/optus-nokia-go-high-on-low-band-5g/"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Nokia",
+    "5G",
+    "900 МГц"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n13",
+   "topic": "science",
+   "title": "SpaceX 13 ноября попробует впервые поймать и ускоритель, и корабль Starship",
+   "lead": "Пятнадцатый полёт Starship станет первой попыткой «двойной посадки».",
+   "body": "SpaceX готовит Starship Flight 15 на 13 ноября, сообщает Space.com. Впервые компания попытается вернуть и поймать обе ступени: ускоритель Super Heavy и сам корабль Starship 🚀\n\nУскоритель SpaceX уже ловила раньше, а поимка корабля — новый этап. Если всё получится, система станет полностью многоразовой.\n\nПо данным NASASpaceFlight, на этой неделе также запланированы пуски Vulcan и Electron.",
+   "why": "Полная многоразовость Starship резко удешевит вывод спутников, в том числе для спутниковой связи.",
+   "importance": 4,
+   "sentiment": 0.5,
+   "region": "США",
+   "sources": [
+    {
+     "name": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time"
+    },
+    {
+     "name": "NASASpaceFlight",
+     "url": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "SpaceX",
+    "Starship"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n14",
+   "topic": "economy",
+   "title": "В Китае на «Дне холостяков» резко выросли покупки через ИИ",
+   "lead": "Продажи фестиваля с 7 по 31 октября выросли на 2,4%, а ИИ-шопинг пережил всплеск, пишет Reuters.",
+   "body": "Reuters проанализировал месячный фестиваль распродаж «День холостяков» в Китае. Продажи за 7–31 октября выросли на 2,4% 🛒\n\nГлавное отличие этого года — всплеск использования ИИ в онлайн-торговле: ассистенты помогают искать и выбирать товары.\n\nРост продаж скромный, но смена способа покупки заметна.",
+   "why": "Китай показывает, как ИИ-ассистенты меняют e-commerce — то же скоро придёт и в другие страны.",
+   "importance": 2,
+   "sentiment": 0.2,
+   "region": "Китай",
+   "sources": [
+    {
+     "name": "Reuters via Techmeme",
+     "url": "https://www.techmeme.com/261111/p12"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "Китай",
+    "e-commerce"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n15",
+   "topic": "world",
+   "title": "Европарламент добивается меньшей зависимости ЕС от иностранных облаков",
+   "lead": "Депутаты хотят сократить зависимость Европы от зарубежных облачных провайдеров.",
+   "body": "Евродепутаты продвигают меры по снижению зависимости Европы от иностранных облачных провайдеров, сообщает Euronews ☁️\n\nТакже Euronews пишет, что ряд ключевых лидеров ЕС пропускает саммит лидеров COP31.",
+   "why": "Если делаешь сервисы для европейских пользователей, требования к хранению данных могут ужесточиться.",
+   "importance": 3,
+   "sentiment": 0.0,
+   "region": "Европа",
+   "sources": [
+    {
+     "name": "Euronews",
+     "url": "https://euronews.com/2026/11/11/eu-lawmakers-push-to-reduce-europes-dependence-on-foreign-cloud-providers"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/11/more-than-just-a-photo-opportunity-why-are-key-eu-leaders-skipping-the-cop31-leaders-summi"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "ЕС",
+    "облака"
+   ],
+   "horizon": false
+  },
+  {
+   "id": "n16",
+   "topic": "games",
+   "title": "Разработчики Big Walk признали использование ИИ — среди жюри IGF вспыхнул спор",
+   "lead": "Студия House House, авторы Untitled Goose Game, подтвердила, что применяла ИИ на финальном этапе разработки.",
+   "body": "House House подтвердила, что использовала ИИ на финальном этапе разработки игры Big Walk, пишет Aftermath 🎮\n\nЭто вызвало бурную дискуссию среди судей и жюри Independent Games Festival — одной из главных премий для инди-игр.\n\nСпор о том, где проходит граница допустимого использования ИИ в играх, продолжается.",
+   "why": "Хороший пример того, как к ИИ в творчестве относится сообщество — важно, если делаешь игры или приложения.",
+   "importance": 2,
+   "sentiment": -0.1,
+   "region": "Австралия",
+   "sources": [
+    {
+     "name": "Aftermath via Techmeme",
+     "url": "https://www.techmeme.com/261111/p22"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "инди",
+    "ИИ"
+   ],
+   "horizon": false
+  }
+ ],
+ "extras": {
+  "eventOfDay": {
+   "title": "12 лет посадке на комету",
+   "text": "12 ноября 2014 года модуль Philae миссии Rosetta совершил первую в истории мягкую посадку на ядро кометы — 67P/Чурюмова — Герасименко.",
+   "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)"
+  },
+  "fact": {
+   "title": "Неудачный отскок",
+   "text": "Гарпуны Philae не сработали, и модуль дважды отскочил от кометы, прежде чем остановиться в тени — поэтому его батареи быстро сели.",
+   "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)"
+  },
+  "appOfDay": {
+   "name": "Wikipedia",
+   "platform": "Android",
+   "text": "Официальное приложение Википедии: офлайн-чтение статей, списки для чтения и тёмная тема. Бесплатно и без рекламы.",
+   "url": "https://play.google.com/store/apps/details?id=org.wikipedia"
+  }
+ },
+ "quiz": [
+  {
+   "q": "О чём договорились в Абу-Даби во второй день переговоров?",
+   "options": [
+    "О прекращении огня",
+    "О крупном обмене пленными",
+    "О новых границах"
+   ],
+   "answer": 1,
+   "explain": "Умеров сообщил о масштабном обмене пленными; по территориям прорыва нет.",
+   "itemId": "n01"
+  },
+  {
+   "q": "Сколько будет стоить патент в Петербурге с 2027 года?",
+   "options": [
+    "Около 7 тысяч рублей",
+    "Около 11 тысяч рублей",
+    "Около 20 тысяч рублей"
+   ],
+   "answer": 1,
+   "explain": "ЗакС одобрил рост почти на 40% — до 11 тысяч рублей в месяц.",
+   "itemId": "n03"
+  },
+  {
+   "q": "Что впервые попробует сделать SpaceX в Flight 15?",
+   "options": [
+    "Поймать и ускоритель, и корабль",
+    "Слетать к Луне",
+    "Запустить экипаж"
+   ],
+   "answer": 0,
+   "explain": "Это первая попытка «двойной посадки» Starship.",
+   "itemId": "n13"
+  }
+ ],
+ "stats": {
+  "sources": 27,
+  "searches": 24,
+  "countries": 9
+ }
+}
