@@ -485,6 +485,54 @@
    "horizon": false
   },
   {
+   "id": "n24",
+   "topic": "dev",
+   "title": "GitHub Copilot получил Claude Fable 5.2 и Gemini 4 Carbon, а старые модели отправлены на пенсию",
+   "lead": "В еженедельном обновлении Copilot новые модели стали доступны на платных тарифах. VS Code объявил отказ от «локального харнесса».",
+   "body": "GitHub 16 ноября выпустил очередной пакет обновлений Copilot. На платных тарифах появились две новые модели — Claude Fable 5.2 и Gemini 4 Carbon. Кроме того, Copilot теперь работает с репозиториями GitHub Enterprise Server, то есть и в компаниях, которые держат код на своих серверах.\n\nОдновременно GitHub вывел из большинства функций Copilot модели Claude Opus 4.8, Opus 5 и GPT-5.6 Terra, предложив вместо них замены. В VS Code 1.146 объявлено, что «локальный харнесс» Copilot устарел и будет удалён в феврале 2027 года в пользу харнесса Microsoft Copilot. 🧑‍💻\n\nЕщё пара мелочей из журнала изменений: запросы на отклонение алертов Dependabot теперь живут год вместо недели, а сканирование AI Scan в публичном превью можно запускать сразу на 20 репозиториях.",
+   "why": "Если пишешь код с Copilot, проверь, какая модель стоит у тебя по умолчанию: часть привычных моделей отключили, а новые могут лучше справляться с Kotlin и Android-проектами.",
+   "importance": 3,
+   "sentiment": 0.4,
+   "region": "США",
+   "sources": [
+    {
+     "name": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9"
+    },
+    {
+     "name": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026"
+    },
+    {
+     "name": "GitHub Changelog",
+     "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027"
+    }
+   ],
+   "image": null,
+   "storyId": null,
+   "storyTitle": null,
+   "isUpdate": false,
+   "rumor": false,
+   "terms": [
+    {
+     "term": "Харнесс",
+     "def": "Обвязка вокруг ИИ-модели: как агент получает контекст, вызывает инструменты и правит файлы в редакторе."
+    },
+    {
+     "term": "Dependabot",
+     "def": "Бот GitHub, который следит за уязвимыми зависимостями проекта и предлагает обновления."
+    }
+   ],
+   "perspectives": [],
+   "readMin": 1,
+   "tags": [
+    "GitHub",
+    "Copilot",
+    "VS Code"
+   ],
+   "horizon": false
+  },
+  {
    "id": "n11",
    "topic": "gadgets",
    "title": "Инсайдер: редизайн Galaxy S27 подтверждён на 100% — Samsung откажется от вертикального блока камер",
@@ -1010,9 +1058,9 @@
   }
  ],
  "stats": {
-  "sources": 31,
+  "sources": 34,
   "searches": 50,
   "countries": 11
  },
- "generatedAt": "2026-11-18T07:53:39+05:00"
+ "generatedAt": "2026-11-18T07:59:49+05:00"
 }
